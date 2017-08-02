@@ -1,0 +1,16 @@
+.cache
+.eggs
+.env
+
+__pycache__
+
+build
+dist
+funktoolz.egg-info
+
+*.pyc
+
+tags
+tags.*
+
+test.py
