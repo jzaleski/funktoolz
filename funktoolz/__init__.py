@@ -1,10 +1,17 @@
 __all__ = (
+    'Filter',
     'From',
-    '__version__',
-    'coroutine',
+    'Lambda',
+    'Map',
+    'Reduce',
 )
 __version__ = '0.0.1'
 
 
-from funktoolz.decorators import coroutine
-from funktoolz.indirection import From
+from funktoolz.coroutines import (
+    Filter,
+    From,
+    Lambda,
+    Map,
+    Reduce,
+)
